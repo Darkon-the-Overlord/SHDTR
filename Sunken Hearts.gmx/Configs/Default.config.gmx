@@ -3,17 +3,12 @@
   <Options>
     <option_aborterrors>False</option_aborterrors>
     <option_android_GPU_device>0</option_android_GPU_device>
-    <option_android_adcolony_ads>false</option_android_adcolony_ads>
-    <option_android_adcolony_enable_V4VC>0</option_android_adcolony_enable_V4VC>
-    <option_android_advertising_enable>0</option_android_advertising_enable>
+    <option_android_adcolony_ads>0</option_android_adcolony_ads>
+    <option_android_advertising_enable>false</option_android_advertising_enable>
     <option_android_advertising_key></option_android_advertising_key>
     <option_android_advertising_type>MoPub</option_android_advertising_type>
-    <option_android_amazon_ads>false</option_android_amazon_ads>
+    <option_android_amazon_ads>0</option_android_amazon_ads>
     <option_android_amazon_game_circle>0</option_android_amazon_game_circle>
-    <option_android_amazon_gc_achievements>-1</option_android_amazon_gc_achievements>
-    <option_android_amazon_gc_leaderboards>-1</option_android_amazon_gc_leaderboards>
-    <option_android_amazon_gc_whispersync>0</option_android_amazon_gc_whispersync>
-    <option_android_amazon_iap>0</option_android_amazon_iap>
     <option_android_apk_expansion>0</option_android_apk_expansion>
     <option_android_arch_armv5>True</option_android_arch_armv5>
     <option_android_arch_armv7>True</option_android_arch_armv7>
@@ -28,18 +23,15 @@
     <option_android_display_name>Sunken Hearts</option_android_display_name>
     <option_android_facebook_app_display_name></option_android_facebook_app_display_name>
     <option_android_facebook_appid></option_android_facebook_appid>
-    <option_android_facebook_enable>false</option_android_facebook_enable>
-    <option_android_flurry_analytics>false</option_android_flurry_analytics>
-    <option_android_flurry_enable>false</option_android_flurry_enable>
-    <option_android_flurry_id></option_android_flurry_id>
-    <option_android_google_analytics>false</option_android_google_analytics>
+    <option_android_facebook_enable>0</option_android_facebook_enable>
+    <option_android_flurry_analytics>0</option_android_flurry_analytics>
+    <option_android_google_analytics>0</option_android_google_analytics>
     <option_android_google_analytics_enable>false</option_android_google_analytics_enable>
-    <option_android_google_mobile_ads>false</option_android_google_mobile_ads>
+    <option_android_google_mobile_ads>0</option_android_google_mobile_ads>
     <option_android_google_play>0</option_android_google_play>
-    <option_android_google_play_cloud_save_enable>false</option_android_google_play_cloud_save_enable>
+    <option_android_google_play_cloud_save_enable>0</option_android_google_play_cloud_save_enable>
     <option_android_google_play_id></option_android_google_play_id>
     <option_android_google_tracking_id></option_android_google_tracking_id>
-    <option_android_iap_suppress_toast>false</option_android_iap_suppress_toast>
     <option_android_icade_support>-1</option_android_icade_support>
     <option_android_icon_hdpi>Configs\Default\android\icons\icon_hdpi.png</option_android_icon_hdpi>
     <option_android_icon_ldpi>Configs\Default\android\icons\icon_ldpi.png</option_android_icon_ldpi>
@@ -51,12 +43,13 @@
     <option_android_interpolate>-1</option_android_interpolate>
     <option_android_licensing_enable>0</option_android_licensing_enable>
     <option_android_licensing_key></option_android_licensing_key>
+    <option_android_lint>-1</option_android_lint>
     <option_android_major_version>1</option_android_major_version>
     <option_android_min_sdk_version>9</option_android_min_sdk_version>
     <option_android_minor_version>0</option_android_minor_version>
-    <option_android_mmedia_ads>false</option_android_mmedia_ads>
-    <option_android_moga>false</option_android_moga>
-    <option_android_mopub_ads>false</option_android_mopub_ads>
+    <option_android_mmedia_ads>0</option_android_mmedia_ads>
+    <option_android_moga>0</option_android_moga>
+    <option_android_mopub_ads>0</option_android_mopub_ads>
     <option_android_orient_landscape>True</option_android_orient_landscape>
     <option_android_orient_landscape_flipped>True</option_android_orient_landscape_flipped>
     <option_android_orient_portrait>True</option_android_orient_portrait>
@@ -67,37 +60,35 @@
     <option_android_package_domain>com</option_android_package_domain>
     <option_android_package_product>Sunken_Hearts</option_android_package_product>
     <option_android_permission_flags>8</option_android_permission_flags>
-    <option_android_pocketchange_enable>0</option_android_pocketchange_enable>
-    <option_android_pocketchange_id></option_android_pocketchange_id>
-    <option_android_pocketchange_test_enable>0</option_android_pocketchange_test_enable>
     <option_android_portrait_splash_png>Configs\Default\android\portrait_splash.png</option_android_portrait_splash_png>
     <option_android_push_enable>0</option_android_push_enable>
     <option_android_push_id></option_android_push_id>
     <option_android_scale>-1</option_android_scale>
     <option_android_set_device_id></option_android_set_device_id>
+    <option_android_sleep_margin>4</option_android_sleep_margin>
     <option_android_splash_png>Configs\Default\android\splash.png</option_android_splash_png>
     <option_android_splash_time>0</option_android_splash_time>
     <option_android_support_lib_version>23.1.1</option_android_support_lib_version>
-    <option_android_target_sdk_version>16</option_android_target_sdk_version>
+    <option_android_target_sdk_version>23</option_android_target_sdk_version>
     <option_android_texture_page>1024</option_android_texture_page>
-    <option_android_use_test_ads>0</option_android_use_test_ads>
+    <option_android_use_test_ads>false</option_android_use_test_ads>
     <option_androidfire_GPU_device>0</option_androidfire_GPU_device>
     <option_androidfire_adcolony_enable_V4VC>false</option_androidfire_adcolony_enable_V4VC>
     <option_androidfire_advertising_enable>false</option_androidfire_advertising_enable>
     <option_androidfire_advertising_key></option_androidfire_advertising_key>
     <option_androidfire_advertising_type>MoPub</option_androidfire_advertising_type>
-    <option_androidfire_amazon_game_circle>false</option_androidfire_amazon_game_circle>
+    <option_androidfire_amazon_game_circle>0</option_androidfire_amazon_game_circle>
     <option_androidfire_amazon_gc_achievements>true</option_androidfire_amazon_gc_achievements>
     <option_androidfire_amazon_gc_leaderboards>true</option_androidfire_amazon_gc_leaderboards>
     <option_androidfire_amazon_gc_whispersync>false</option_androidfire_amazon_gc_whispersync>
     <option_androidfire_amazon_iap>false</option_androidfire_amazon_iap>
     <option_androidfire_apk_expansion>false</option_androidfire_apk_expansion>
-    <option_androidfire_arch_armv5>true</option_androidfire_arch_armv5>
-    <option_androidfire_arch_armv7>true</option_androidfire_arch_armv7>
-    <option_androidfire_arch_mips>true</option_androidfire_arch_mips>
+    <option_androidfire_arch_armv5>True</option_androidfire_arch_armv5>
+    <option_androidfire_arch_armv7>True</option_androidfire_arch_armv7>
+    <option_androidfire_arch_mips>True</option_androidfire_arch_mips>
     <option_androidfire_arch_mipsr2>false</option_androidfire_arch_mipsr2>
     <option_androidfire_arch_mipsr2sf>false</option_androidfire_arch_mipsr2sf>
-    <option_androidfire_arch_x86>true</option_androidfire_arch_x86>
+    <option_androidfire_arch_x86>True</option_androidfire_arch_x86>
     <option_androidfire_background_png>Configs\Default\amazonfire\icons\background.png</option_androidfire_background_png>
     <option_androidfire_banner_png>Configs\Default\amazonfire\icons\banner.png</option_androidfire_banner_png>
     <option_androidfire_build_tools_version>23.0.1</option_androidfire_build_tools_version>
@@ -109,8 +100,8 @@
     <option_androidfire_facebook_appid></option_androidfire_facebook_appid>
     <option_androidfire_facebook_enable>false</option_androidfire_facebook_enable>
     <option_androidfire_google_analytics_enable>false</option_androidfire_google_analytics_enable>
-    <option_androidfire_google_play>false</option_androidfire_google_play>
-    <option_androidfire_google_play_cloud_save_enable>false</option_androidfire_google_play_cloud_save_enable>
+    <option_androidfire_google_play>0</option_androidfire_google_play>
+    <option_androidfire_google_play_cloud_save_enable>0</option_androidfire_google_play_cloud_save_enable>
     <option_androidfire_google_play_id></option_androidfire_google_play_id>
     <option_androidfire_iap_suppress_toast>false</option_androidfire_iap_suppress_toast>
     <option_androidfire_icon_hdpi>Configs\Default\amazonfire\icons\icon_hdpi.png</option_androidfire_icon_hdpi>
@@ -125,20 +116,21 @@
     <option_androidfire_large_icon_png>Configs\Default\amazonfire\icons\large_icon.png</option_androidfire_large_icon_png>
     <option_androidfire_licensing_enable>false</option_androidfire_licensing_enable>
     <option_androidfire_licensing_key></option_androidfire_licensing_key>
+    <option_androidfire_lint>0</option_androidfire_lint>
     <option_androidfire_major_version>1</option_androidfire_major_version>
     <option_androidfire_min_sdk_version>9</option_androidfire_min_sdk_version>
     <option_androidfire_minor_version>0</option_androidfire_minor_version>
-    <option_androidfire_moga>false</option_androidfire_moga>
-    <option_androidfire_orient_landscape>true</option_androidfire_orient_landscape>
-    <option_androidfire_orient_landscape_flipped>true</option_androidfire_orient_landscape_flipped>
-    <option_androidfire_orient_portrait>true</option_androidfire_orient_portrait>
-    <option_androidfire_orient_portrait_flipped>true</option_androidfire_orient_portrait_flipped>
+    <option_androidfire_moga>0</option_androidfire_moga>
+    <option_androidfire_orient_landscape>True</option_androidfire_orient_landscape>
+    <option_androidfire_orient_landscape_flipped>True</option_androidfire_orient_landscape_flipped>
+    <option_androidfire_orient_portrait>True</option_androidfire_orient_portrait>
+    <option_androidfire_orient_portrait_flipped>True</option_androidfire_orient_portrait_flipped>
     <option_androidfire_package_company>companyname</option_androidfire_package_company>
     <option_androidfire_package_domain>com</option_androidfire_package_domain>
     <option_androidfire_package_product>Sunken_Hearts</option_androidfire_package_product>
     <option_androidfire_permission_flags>8</option_androidfire_permission_flags>
     <option_androidfire_portrait_splash_png>Configs\Default\amazonfire\portrait_splash.png</option_androidfire_portrait_splash_png>
-    <option_androidfire_push_enable>false</option_androidfire_push_enable>
+    <option_androidfire_push_enable>0</option_androidfire_push_enable>
     <option_androidfire_push_id></option_androidfire_push_id>
     <option_androidfire_scale>-1</option_androidfire_scale>
     <option_androidfire_set_device_id></option_androidfire_set_device_id>
@@ -154,18 +146,18 @@
     <option_androidtv_advertising_enable>false</option_androidtv_advertising_enable>
     <option_androidtv_advertising_key></option_androidtv_advertising_key>
     <option_androidtv_advertising_type>MoPub</option_androidtv_advertising_type>
-    <option_androidtv_amazon_game_circle>false</option_androidtv_amazon_game_circle>
+    <option_androidtv_amazon_game_circle>0</option_androidtv_amazon_game_circle>
     <option_androidtv_amazon_gc_achievements>true</option_androidtv_amazon_gc_achievements>
     <option_androidtv_amazon_gc_leaderboards>true</option_androidtv_amazon_gc_leaderboards>
     <option_androidtv_amazon_gc_whispersync>false</option_androidtv_amazon_gc_whispersync>
     <option_androidtv_amazon_iap>false</option_androidtv_amazon_iap>
-    <option_androidtv_apk_expansion>false</option_androidtv_apk_expansion>
-    <option_androidtv_arch_armv5>true</option_androidtv_arch_armv5>
-    <option_androidtv_arch_armv7>true</option_androidtv_arch_armv7>
-    <option_androidtv_arch_mips>true</option_androidtv_arch_mips>
+    <option_androidtv_apk_expansion>0</option_androidtv_apk_expansion>
+    <option_androidtv_arch_armv5>True</option_androidtv_arch_armv5>
+    <option_androidtv_arch_armv7>True</option_androidtv_arch_armv7>
+    <option_androidtv_arch_mips>True</option_androidtv_arch_mips>
     <option_androidtv_arch_mipsr2>false</option_androidtv_arch_mipsr2>
     <option_androidtv_arch_mipsr2sf>false</option_androidtv_arch_mipsr2sf>
-    <option_androidtv_arch_x86>true</option_androidtv_arch_x86>
+    <option_androidtv_arch_x86>True</option_androidtv_arch_x86>
     <option_androidtv_background_png>Configs\Default\androidtv\icons\background.png</option_androidtv_background_png>
     <option_androidtv_banner_png>Configs\Default\androidtv\icons\banner.png</option_androidtv_banner_png>
     <option_androidtv_build_tools_version>23.0.1</option_androidtv_build_tools_version>
@@ -175,10 +167,10 @@
     <option_androidtv_display_name>Sunken Hearts</option_androidtv_display_name>
     <option_androidtv_facebook_app_display_name></option_androidtv_facebook_app_display_name>
     <option_androidtv_facebook_appid></option_androidtv_facebook_appid>
-    <option_androidtv_facebook_enable>false</option_androidtv_facebook_enable>
+    <option_androidtv_facebook_enable>0</option_androidtv_facebook_enable>
     <option_androidtv_google_analytics_enable>false</option_androidtv_google_analytics_enable>
-    <option_androidtv_google_play>false</option_androidtv_google_play>
-    <option_androidtv_google_play_cloud_save_enable>false</option_androidtv_google_play_cloud_save_enable>
+    <option_androidtv_google_play>0</option_androidtv_google_play>
+    <option_androidtv_google_play_cloud_save_enable>0</option_androidtv_google_play_cloud_save_enable>
     <option_androidtv_google_play_id></option_androidtv_google_play_id>
     <option_androidtv_iap_suppress_toast>false</option_androidtv_iap_suppress_toast>
     <option_androidtv_icon_hdpi>Configs\Default\androidtv\icons\icon_hdpi.png</option_androidtv_icon_hdpi>
@@ -189,18 +181,19 @@
     <option_androidtv_icon_xxxhdpi>Configs\Default\androidtv\icons\icon_xxxhdpi.png</option_androidtv_icon_xxxhdpi>
     <option_androidtv_install_location>auto</option_androidtv_install_location>
     <option_androidtv_interpolate>true</option_androidtv_interpolate>
-    <option_androidtv_isgame>true</option_androidtv_isgame>
+    <option_androidtv_isgame>-1</option_androidtv_isgame>
     <option_androidtv_large_icon_png>Configs\Default\androidtv\icons\large_icon.png</option_androidtv_large_icon_png>
-    <option_androidtv_licensing_enable>false</option_androidtv_licensing_enable>
+    <option_androidtv_licensing_enable>0</option_androidtv_licensing_enable>
     <option_androidtv_licensing_key></option_androidtv_licensing_key>
+    <option_androidtv_lint>-1</option_androidtv_lint>
     <option_androidtv_major_version>1</option_androidtv_major_version>
     <option_androidtv_minor_version>0</option_androidtv_minor_version>
-    <option_androidtv_moga>false</option_androidtv_moga>
+    <option_androidtv_moga>0</option_androidtv_moga>
     <option_androidtv_package_company>companyname</option_androidtv_package_company>
     <option_androidtv_package_domain>com</option_androidtv_package_domain>
     <option_androidtv_package_product>Sunken_Hearts</option_androidtv_package_product>
     <option_androidtv_permission_flags>8</option_androidtv_permission_flags>
-    <option_androidtv_push_enable>false</option_androidtv_push_enable>
+    <option_androidtv_push_enable>0</option_androidtv_push_enable>
     <option_androidtv_push_id></option_androidtv_push_id>
     <option_androidtv_scale>-1</option_androidtv_scale>
     <option_androidtv_set_device_id></option_androidtv_set_device_id>
@@ -218,23 +211,23 @@
     <option_changeresolution>false</option_changeresolution>
     <option_closeesc>true</option_closeesc>
     <option_colordepth>0</option_colordepth>
-    <option_display_name>Sunken Hearts</option_display_name>
+    <option_display_name>GameMaker: Studio</option_display_name>
     <option_displayerrors>True</option_displayerrors>
-    <option_ecma>false</option_ecma>
+    <option_ecma>0</option_ecma>
     <option_facebook_app_display_name></option_facebook_app_display_name>
     <option_facebook_appid></option_facebook_appid>
-    <option_facebook_enable>0</option_facebook_enable>
+    <option_facebook_enable>false</option_facebook_enable>
     <option_freeze>false</option_freeze>
     <option_frequency>0</option_frequency>
     <option_frontimage>nil</option_frontimage>
     <option_fullscreen>False</option_fullscreen>
-    <option_gameguid>{FADE0766-47F1-4B00-A5CE-23873DA9E33B}</option_gameguid>
-    <option_gameid>388437658</option_gameid>
+    <option_gameguid>{D8825F19-9FC9-4CED-B183-314D400BB818}</option_gameguid>
+    <option_gameid>475746324</option_gameid>
     <option_haptic_effects>0</option_haptic_effects>
     <option_hasloadimage>false</option_hasloadimage>
     <option_helpkey>true</option_helpkey>
     <option_html5_CreationEventOrder>true</option_html5_CreationEventOrder>
-    <option_html5_WebGL>0</option_html5_WebGL>
+    <option_html5_WebGL>2</option_html5_WebGL>
     <option_html5_advertising_enable>0</option_html5_advertising_enable>
     <option_html5_advertising_key></option_html5_advertising_key>
     <option_html5_advertising_type>Supersonic Ads</option_html5_advertising_type>
@@ -244,7 +237,7 @@
     <option_html5_centergame>False</option_html5_centergame>
     <option_html5_facebook_app_display_name></option_html5_facebook_app_display_name>
     <option_html5_facebook_appid></option_html5_facebook_appid>
-    <option_html5_facebook_enable>false</option_html5_facebook_enable>
+    <option_html5_facebook_enable>0</option_html5_facebook_enable>
     <option_html5_flurry_enable>0</option_html5_flurry_enable>
     <option_html5_flurry_id></option_html5_flurry_id>
     <option_html5_foldername>html5game</option_html5_foldername>
@@ -257,7 +250,7 @@
     <option_html5_jsprepend></option_html5_jsprepend>
     <option_html5_loadingbar>-1</option_html5_loadingbar>
     <option_html5_localrunalert>True</option_html5_localrunalert>
-    <option_html5_outputdebugtoconsole>False</option_html5_outputdebugtoconsole>
+    <option_html5_outputdebugtoconsole>True</option_html5_outputdebugtoconsole>
     <option_html5_outputname>index.html</option_html5_outputname>
     <option_html5_scale>-1</option_html5_scale>
     <option_html5_showcursor>True</option_html5_showcursor>
@@ -267,13 +260,11 @@
     <option_html5_usebuiltinparticles>True</option_html5_usebuiltinparticles>
     <option_html5_usesplash>False</option_html5_usesplash>
     <option_icon>nil</option_icon>
-    <option_in_app_purchase_enable>0</option_in_app_purchase_enable>
     <option_in_app_purchase_sandbox_mode>0</option_in_app_purchase_sandbox_mode>
-    <option_in_app_purchase_server_url></option_in_app_purchase_server_url>
     <option_information></option_information>
     <option_interpolate>False</option_interpolate>
-    <option_ios_adcolony_enable_V4VC>0</option_ios_adcolony_enable_V4VC>
-    <option_ios_advertising_enable>0</option_ios_advertising_enable>
+    <option_ios_adcolony_enable_V4VC>false</option_ios_adcolony_enable_V4VC>
+    <option_ios_advertising_enable>false</option_ios_advertising_enable>
     <option_ios_advertising_key></option_ios_advertising_key>
     <option_ios_advertising_type>iAds</option_ios_advertising_type>
     <option_ios_app_id></option_ios_app_id>
@@ -283,7 +274,7 @@
     <option_ios_display_name>Sunken Hearts</option_ios_display_name>
     <option_ios_facebook_app_display_name></option_ios_facebook_app_display_name>
     <option_ios_facebook_appid></option_ios_facebook_appid>
-    <option_ios_facebook_enable>false</option_ios_facebook_enable>
+    <option_ios_facebook_enable>0</option_ios_facebook_enable>
     <option_ios_flurry_enable>false</option_ios_flurry_enable>
     <option_ios_flurry_id></option_ios_flurry_id>
     <option_ios_google_analytics_enable>false</option_ios_google_analytics_enable>
@@ -319,14 +310,15 @@
     <option_ios_orient_landscape_right>-1</option_ios_orient_landscape_right>
     <option_ios_orient_portrait>-1</option_ios_orient_portrait>
     <option_ios_orient_portrait_upside_down>-1</option_ios_orient_portrait_upside_down>
-    <option_ios_provisioning>&lt; Press refresh to fetch provisioning list from Mac&gt;</option_ios_provisioning>
+    <option_ios_provisioning></option_ios_provisioning>
     <option_ios_push_enable>0</option_ios_push_enable>
     <option_ios_scale>-1</option_ios_scale>
     <option_ios_set_device_id></option_ios_set_device_id>
     <option_ios_splash_png>Configs\Default\ios\splash.png</option_ios_splash_png>
     <option_ios_splash_time>0</option_ios_splash_time>
+    <option_ios_team_id></option_ios_team_id>
     <option_ios_texture_page>1024</option_ios_texture_page>
-    <option_ios_use_test_ads>0</option_ios_use_test_ads>
+    <option_ios_use_test_ads>false</option_ios_use_test_ads>
     <option_lastchanged></option_lastchanged>
     <option_linux_display_name>Sunken Hearts</option_linux_display_name>
     <option_linux_enable_steam>0</option_linux_enable_steam>
@@ -355,9 +347,10 @@
     <option_mac_appstore_incoming_allow>0</option_mac_appstore_incoming_allow>
     <option_mac_appstore_outgoing_allow>0</option_mac_appstore_outgoing_allow>
     <option_mac_build_version>0</option_mac_build_version>
-    <option_mac_copyright_info>(c)2012 CompanyName Ltd...</option_mac_copyright_info>
+    <option_mac_copyright_info>(c)2016 CompanyName Ltd...</option_mac_copyright_info>
     <option_mac_create_app_store>-1</option_mac_create_app_store>
     <option_mac_display_name>Sunken Hearts</option_mac_display_name>
+    <option_mac_enable_retina>0</option_mac_enable_retina>
     <option_mac_enable_steam>0</option_mac_enable_steam>
     <option_mac_fullscreen>0</option_mac_fullscreen>
     <option_mac_icon_png>Configs\Default\mac\icon512.png</option_mac_icon_png>
@@ -380,18 +373,15 @@
     <option_noscreensaver>true</option_noscreensaver>
     <option_ouya_packaging>0</option_ouya_packaging>
     <option_priority>0</option_priority>
-    <option_ps3_build_version>0</option_ps3_build_version>
     <option_ps3_interpolate>-1</option_ps3_interpolate>
-    <option_ps3_major_version>1</option_ps3_major_version>
-    <option_ps3_minor_version>0</option_ps3_minor_version>
     <option_ps3_nptitleid></option_ps3_nptitleid>
     <option_ps3_nptitlepassphrase>Memo1</option_ps3_nptitlepassphrase>
     <option_ps3_nptitlesecret>Memo1</option_ps3_nptitlesecret>
     <option_ps3_package_id></option_ps3_package_id>
     <option_ps3_passcode></option_ps3_passcode>
-    <option_ps3_revision_version>0</option_ps3_revision_version>
     <option_ps3_scale>0</option_ps3_scale>
     <option_ps3_texture_page>2048</option_ps3_texture_page>
+    <option_ps3_version>1.00</option_ps3_version>
     <option_ps4_build_version>0</option_ps4_build_version>
     <option_ps4_displaycursor>0</option_ps4_displaycursor>
     <option_ps4_interpolate>-1</option_ps4_interpolate>
@@ -407,7 +397,6 @@
     <option_psvita_build_version>0</option_psvita_build_version>
     <option_psvita_fronttouch>0</option_psvita_fronttouch>
     <option_psvita_interpolate>-1</option_psvita_interpolate>
-    <option_psvita_interpolation>true</option_psvita_interpolation>
     <option_psvita_major_version>1</option_psvita_major_version>
     <option_psvita_minor_version>0</option_psvita_minor_version>
     <option_psvita_nptitleid></option_psvita_nptitleid>
@@ -429,7 +418,7 @@
     <option_screenkey>True</option_screenkey>
     <option_screenshotkey>true</option_screenshotkey>
     <option_shortcircuit>True</option_shortcircuit>
-    <option_showcursor>True</option_showcursor>
+    <option_showcursor>False</option_showcursor>
     <option_showprogress>1</option_showprogress>
     <option_sizeable>False</option_sizeable>
     <option_stayontop>false</option_stayontop>
@@ -437,7 +426,7 @@
     <option_textureGroup0_border>2</option_textureGroup0_border>
     <option_textureGroup0_nocropping>0</option_textureGroup0_nocropping>
     <option_textureGroup0_parent>&lt;none&gt;</option_textureGroup0_parent>
-    <option_textureGroup0_scaled>-1</option_textureGroup0_scaled>
+    <option_textureGroup0_scaled>0</option_textureGroup0_scaled>
     <option_textureGroup0_targets>9223372036854775807</option_textureGroup0_targets>
     <option_textureGroup_count>1</option_textureGroup_count>
     <option_textureGroups0>Default</option_textureGroups0>
@@ -460,6 +449,20 @@
     <option_tizen_splash_png>Configs\Default\tizen\splash.png</option_tizen_splash_png>
     <option_tizen_texture_page>1024</option_tizen_texture_page>
     <option_tizen_usesplash>False</option_tizen_usesplash>
+    <option_tvos_app_id></option_tvos_app_id>
+    <option_tvos_build_version>0</option_tvos_build_version>
+    <option_tvos_certificate>&lt; Press refresh to fetch certificate list from Mac&gt;</option_tvos_certificate>
+    <option_tvos_display_name>Sunken Hearts</option_tvos_display_name>
+    <option_tvos_icon_1280>Configs\Default\tvos\icons\icon1280.png</option_tvos_icon_1280>
+    <option_tvos_icon_400>Configs\Default\tvos\icons\icon400.png</option_tvos_icon_400>
+    <option_tvos_interpolate>-1</option_tvos_interpolate>
+    <option_tvos_major_version>1</option_tvos_major_version>
+    <option_tvos_minor_version>0</option_tvos_minor_version>
+    <option_tvos_scale>-1</option_tvos_scale>
+    <option_tvos_splash_png>Configs\Default\tvos\splash.png</option_tvos_splash_png>
+    <option_tvos_splash_time>0</option_tvos_splash_time>
+    <option_tvos_texture_page>2048</option_tvos_texture_page>
+    <option_use_fast_collision>False</option_use_fast_collision>
     <option_use_new_audio>True</option_use_new_audio>
     <option_variableerrors>False</option_variableerrors>
     <option_version>100</option_version>
@@ -510,26 +513,26 @@
     <option_winUAP_build_version>0</option_winUAP_build_version>
     <option_winUAP_certificate_location>WinUWPRunner_TemporaryKey.pfx</option_winUAP_certificate_location>
     <option_winUAP_display_name>Sunken Hearts</option_winUAP_display_name>
-    <option_winUAP_internet_capable>false</option_winUAP_internet_capable>
-    <option_winUAP_interpolate>true</option_winUAP_interpolate>
-    <option_winUAP_landscape_allowed>true</option_winUAP_landscape_allowed>
-    <option_winUAP_landscape_flipped_allowed>true</option_winUAP_landscape_flipped_allowed>
+    <option_winUAP_internet_capable>0</option_winUAP_internet_capable>
+    <option_winUAP_interpolate>-1</option_winUAP_interpolate>
+    <option_winUAP_landscape_allowed>-1</option_winUAP_landscape_allowed>
+    <option_winUAP_landscape_flipped_allowed>-1</option_winUAP_landscape_flipped_allowed>
     <option_winUAP_large_logo>Configs\Default\WindowsUAP\logos\LargeLogo.scale-100.png</option_winUAP_large_logo>
     <option_winUAP_logo>Configs\Default\WindowsUAP\logos\Logo.scale-100.png</option_winUAP_logo>
     <option_winUAP_logo_background_colour>#000000</option_winUAP_logo_background_colour>
     <option_winUAP_logo_foreground_text>light</option_winUAP_logo_foreground_text>
     <option_winUAP_major_version>1</option_winUAP_major_version>
-    <option_winUAP_microphone_capable>false</option_winUAP_microphone_capable>
+    <option_winUAP_microphone_capable>0</option_winUAP_microphone_capable>
     <option_winUAP_minor_version>0</option_winUAP_minor_version>
     <option_winUAP_native_cpu>x86</option_winUAP_native_cpu>
     <option_winUAP_package_display_name>YourPackageDisplayName</option_winUAP_package_display_name>
     <option_winUAP_package_name>YourPackageName</option_winUAP_package_name>
-    <option_winUAP_portrait_allowed>true</option_winUAP_portrait_allowed>
-    <option_winUAP_portrait_flipped_allowed>true</option_winUAP_portrait_flipped_allowed>
+    <option_winUAP_portrait_allowed>-1</option_winUAP_portrait_allowed>
+    <option_winUAP_portrait_flipped_allowed>-1</option_winUAP_portrait_flipped_allowed>
     <option_winUAP_publisher_display_name>YourPublisherName</option_winUAP_publisher_display_name>
     <option_winUAP_revision_version>0</option_winUAP_revision_version>
     <option_winUAP_scaling_stretch>false</option_winUAP_scaling_stretch>
-    <option_winUAP_search_capable>false</option_winUAP_search_capable>
+    <option_winUAP_search_capable>0</option_winUAP_search_capable>
     <option_winUAP_small_logo>Configs\Default\WindowsUAP\logos\SmallLogo.scale-100.png</option_winUAP_small_logo>
     <option_winUAP_smallish_logo>Configs\Default\WindowsUAP\logos\SmallishLogo.scale-100.png</option_winUAP_smallish_logo>
     <option_winUAP_splash_background_colour>#000000</option_winUAP_splash_background_colour>
@@ -538,11 +541,11 @@
     <option_winUAP_texture_page>1024</option_winUAP_texture_page>
     <option_winUAP_wide_logo>Configs\Default\WindowsUAP\logos\WideLogo.scale-100.png</option_winUAP_wide_logo>
     <option_windowcolor>clBlack</option_windowcolor>
-    <option_windows_alternate_sync_method>false</option_windows_alternate_sync_method>
+    <option_windows_alternate_sync_method>False</option_windows_alternate_sync_method>
     <option_windows_build_version>0</option_windows_build_version>
     <option_windows_company_info></option_windows_company_info>
     <option_windows_copyright_info></option_windows_copyright_info>
-    <option_windows_create_textures_on_demand>false</option_windows_create_textures_on_demand>
+    <option_windows_create_textures_on_demand>False</option_windows_create_textures_on_demand>
     <option_windows_description_info></option_windows_description_info>
     <option_windows_enable_steam>0</option_windows_enable_steam>
     <option_windows_game_icon>Configs\Default\windows\runner_icon.ico</option_windows_game_icon>
@@ -559,8 +562,8 @@
     <option_windows_splash_background_colour>#000000</option_windows_splash_background_colour>
     <option_windows_splash_screen>Configs\Default\windows\splash.png</option_windows_splash_screen>
     <option_windows_steam_app_id>0</option_windows_steam_app_id>
-    <option_windows_texture_page>4096</option_windows_texture_page>
-    <option_windows_use_splash>0</option_windows_use_splash>
+    <option_windows_texture_page>2048</option_windows_texture_page>
+    <option_windows_use_splash>-1</option_windows_use_splash>
     <option_windows_vertex_buffer_method2>1</option_windows_vertex_buffer_method2>
     <option_winphone_480_splash_image>Configs\Default\WinPhone\SplashScreenImage480.jpg</option_winphone_480_splash_image>
     <option_winphone_720_splash_image>Configs\Default\WinPhone\SplashScreenImage720.jpg</option_winphone_720_splash_image>
@@ -636,7 +639,7 @@
     <option_xbone_product_id></option_xbone_product_id>
     <option_xbone_publisher></option_xbone_publisher>
     <option_xbone_publisher_display_name></option_xbone_publisher_display_name>
-    <option_xbone_ratings>"&lt;mx:Ratings Category=""game""&gt;","&lt;!-- Insert your title ratings here --&gt;","&lt;!-- See ""Title Ratings for Xbox One"" white paper --&gt;","&lt;!-- from developer.xboxlive.com for details --&gt;","&lt;/mx:Ratings&gt;"</option_xbone_ratings>
+    <option_xbone_ratings>"&lt;mx:Ratings Category=""game""&gt;","&lt;!-- Insert your title ratings here --&gt;","&lt;!-- See ""Title Ratings for Xbox One"" white paper --&gt;","&lt;!-- from developer.xboxlive.com for details --&gt;",&lt;/mx:Ratings&gt;</option_xbone_ratings>
     <option_xbone_require_audio_recording>False</option_xbone_require_audio_recording>
     <option_xbone_require_game_chat>False</option_xbone_require_game_chat>
     <option_xbone_require_xbox_live>True</option_xbone_require_xbox_live>
@@ -647,5 +650,20 @@
     <option_xbone_texture_page>1024</option_xbone_texture_page>
     <option_xbone_title_id></option_xbone_title_id>
   </Options>
-  <ConfigConstants/>
+  <ConfigConstants>
+    <constants number="12">
+      <constant name="RIGHT">0</constant>
+      <constant name="UPRIGHT">1</constant>
+      <constant name="UP">2</constant>
+      <constant name="UPLEFT">3</constant>
+      <constant name="LEFT">4</constant>
+      <constant name="DOWNLEFT">5</constant>
+      <constant name="DOWN">6</constant>
+      <constant name="DOWNRIGHT">7</constant>
+      <constant name="FONT_CHARS">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"+chr(34)+"$%'()[]^,-./:"+chr(59)+"=?"+chr(2022)+chr(266)+"~"</constant>
+      <constant name="DEPTHTILES">10000</constant>
+      <constant name="ACTIVATE">0</constant>
+      <constant name="FORMAT_TEXT">0</constant>
+    </constants>
+  </ConfigConstants>
 </Config>
