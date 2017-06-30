@@ -10,7 +10,7 @@ if (!move(hspd, vspd, true))
 }
 
 // Check for menu
-if (o_input.back)
+if (o_input.start)
 {
     if (!instance_exists(o_menu_ui))
     {
@@ -22,6 +22,12 @@ if (o_input.back)
 // Get the direction we are facing
 var xdir = lengthdir_x(8, facing*45);
 var ydir = lengthdir_y(8, facing*45);
+
+// Check if run button is held
+/*if (o_input.back_held)
+{
+    state = orion_charge_state;
+}*/
 
 // Check for the interactable object
 activate_interactable_object(xdir, ydir);

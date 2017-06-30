@@ -106,6 +106,12 @@ if (o_input.back)
     instance_destroy();
 }
 
+if (o_input.start &amp;&amp; child = noone &amp;&amp; parent == noone)
+{
+    audio_play_sound_effect(a_menu_blip_close, 0, 80);
+    instance_destroy();
+}
+
 // Run the option
 if (o_input.action &amp;&amp; ds_list_size(options) &gt; 0)
 {

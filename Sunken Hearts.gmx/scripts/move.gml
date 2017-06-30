@@ -35,6 +35,7 @@ else
 {
     sprite_index = walk[facing];
     image_speed = .2;
+    update_xy();
 }
 
 //If we are able to move, return as true

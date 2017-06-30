@@ -41,6 +41,24 @@
         <sprite>sprites\s_orionIdleNUL</sprite>
         <sprite>sprites\s_orionIdleNL</sprite>
         <sprite>sprites\s_orionIdleNDL</sprite>
+        <sprites name="P2/P3">
+          <sprite>sprites\s_p2IdleD</sprite>
+          <sprite>sprites\s_p2IdleDR</sprite>
+          <sprite>sprites\s_p2IdleR</sprite>
+          <sprite>sprites\s_p2IdleUR</sprite>
+          <sprite>sprites\s_p2IdleU</sprite>
+          <sprite>sprites\s_p2IdleUL</sprite>
+          <sprite>sprites\s_p2IdleL</sprite>
+          <sprite>sprites\s_p2IdleDL</sprite>
+          <sprite>sprites\s_p3IdleD</sprite>
+          <sprite>sprites\s_p3IdleDR</sprite>
+          <sprite>sprites\s_p3IdleR</sprite>
+          <sprite>sprites\s_p3IdleUR</sprite>
+          <sprite>sprites\s_p3IdleU</sprite>
+          <sprite>sprites\s_p3IdleUL</sprite>
+          <sprite>sprites\s_p3IdleL</sprite>
+          <sprite>sprites\s_p3IdleDL</sprite>
+        </sprites>
       </sprites>
       <sprite>sprites\s_orionCol</sprite>
       <sprite>sprites\s_orionShadow</sprite>
@@ -57,6 +75,7 @@
     </sprites>
     <sprite>sprites\s_mask</sprite>
     <sprite>sprites\s_door</sprite>
+    <sprite>sprites\s_follow</sprite>
     <sprite>sprites\s_startposition</sprite>
     <sprite>sprites\s_dialogfont</sprite>
     <sprite>sprites\s_doorway</sprite>
@@ -87,12 +106,14 @@
         <script>scripts\orion_move_state.gml</script>
         <script>scripts\orion_pause_state.gml</script>
         <script>scripts\orion_talking_state.gml</script>
+        <script>scripts\orion_charge_state.gml</script>
       </scripts>
       <script>scripts\move.gml</script>
       <script>scripts\get_facing.gml</script>
       <script>scripts\character_cutscene_state.gml</script>
       <script>scripts\move_intended_direction.gml</script>
       <script>scripts\character_follower_state.gml</script>
+      <script>scripts\update_xy.gml</script>
     </scripts>
     <scripts name="View Scripts">
       <script>scripts\view_follow_orion_state.gml</script>
@@ -153,12 +174,17 @@
     <script>scripts\activate_interactable_object.gml</script>
     <script>scripts\calculate_health.gml</script>
     <script>scripts\get_stats_from_class.gml</script>
+    <script>scripts\create_follower.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Characters">
       <object>objects\o_orion</object>
       <object>objects\o_corrie</object>
+      <object>objects\o_follower_parent</object>
       <object>objects\o_character_parent</object>
+      <object>objects\o_follower_corrie</object>
+      <object>objects\o_follower_p2</object>
+      <object>objects\o_follower_p3</object>
     </objects>
     <objects name="Engine">
       <object>objects\o_game</object>
@@ -192,7 +218,6 @@
     <object>objects\o_radio</object>
     <object>objects\o_player_stats</object>
     <object>objects\o_start_room_loader</object>
-    <object>objects\o_follower</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_init</room>

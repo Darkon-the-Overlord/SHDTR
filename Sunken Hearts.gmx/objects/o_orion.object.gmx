@@ -32,6 +32,11 @@ image_speed = 0;
 facing = DOWN;
 state = orion_move_state;
 last_room = room;
+followers = 0;
+
+create_follower(o_follower_p2);
+create_follower(o_follower_p3);
+create_follower(o_follower_corrie);
 
 // Portrait
 portrait = s_portrait_orion;
@@ -53,6 +58,40 @@ walk[LEFT] = s_orionWalkNL;
 walk[DOWNLEFT] = s_orionWalkNDL;
 walk[DOWN] = s_orionWalkND;
 walk[DOWNRIGHT] = s_orionWalkNDR;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Follower Create Script
+
+var i;
+var ii;
+
+for (i = 100; i &gt; 0; i -= 1)
+{
+    my_x[abs(i)] = x;
+}
+
+for (ii = 100; ii &gt; 0; ii -= 1)
+{
+    my_y[abs(ii)] = y;
+}
 </string>
           </argument>
         </arguments>
