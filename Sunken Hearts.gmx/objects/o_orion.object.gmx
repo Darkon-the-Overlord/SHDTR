@@ -34,10 +34,6 @@ state = orion_move_state;
 last_room = room;
 followers = 0;
 
-create_follower(o_follower_p2);
-create_follower(o_follower_p3);
-create_follower(o_follower_corrie);
-
 // Portrait
 portrait = s_portrait_orion;
 

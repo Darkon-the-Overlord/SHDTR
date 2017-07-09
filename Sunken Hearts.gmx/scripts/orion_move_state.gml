@@ -6,7 +6,7 @@ var vspd = (o_input.down - o_input.up)*spd;
 //Run movement script
 if (!move(hspd, vspd, true))
 {
-    move_intended_direction(hspd, vspd, 16);
+    move_intended_direction(hspd, vspd, 8);
 }
 
 // Check for menu

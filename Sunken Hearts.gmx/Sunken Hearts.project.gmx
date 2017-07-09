@@ -74,6 +74,10 @@
       <sprite>sprites\s_corrieIdleDL</sprite>
     </sprites>
     <sprite>sprites\s_mask</sprite>
+    <sprite>sprites\s_maskdiag_ur</sprite>
+    <sprite>sprites\s_maskdiag_ul</sprite>
+    <sprite>sprites\s_maskdiag_dl</sprite>
+    <sprite>sprites\s_maskdiag_dr</sprite>
     <sprite>sprites\s_door</sprite>
     <sprite>sprites\s_follow</sprite>
     <sprite>sprites\s_startposition</sprite>
@@ -89,6 +93,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\t_debug</background>
+    <background>background\t_test</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -211,7 +216,13 @@
     <objects name="Cutscenes">
       <object>objects\o_cutscene_parent</object>
     </objects>
-    <object>objects\o_solid</object>
+    <objects name="Collision">
+      <object>objects\o_solid</object>
+      <object>objects\o_solid_ur</object>
+      <object>objects\o_solid_ul</object>
+      <object>objects\o_solid_dl</object>
+      <object>objects\o_solid_dr</object>
+    </objects>
     <object>objects\o_view</object>
     <object>objects\o_doorway</object>
     <object>objects\o_interactable_parent</object>
@@ -221,6 +232,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\r_init</room>
+    <room>rooms\r_cocoburg</room>
     <room>rooms\r_debug</room>
     <room>rooms\r_debug2</room>
     <room>rooms\r_battle</room>
